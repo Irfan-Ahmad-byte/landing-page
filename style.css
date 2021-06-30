@@ -69,7 +69,9 @@ html {
 
 
 /*About Me section*/
-
+.about-sec {
+	margin-top: 7rem;
+}
 .about-title {
 	position: absolute;
 	color: #38a9c5;
@@ -81,7 +83,9 @@ html {
 .about {
 	background-color: #fff;
 	transform: translateY(-4vh);
-	font-size: 1.5rem;
+}
+p {
+	font-size: 1.5rem;	
 }
 .about-border {
 	height: 8vh;
@@ -479,103 +483,10 @@ html {
 
 
 /*The Responsive Part*/
-/*
-@media (max-width: 1330px) {
-	.avatar {
-		transform: translateX(3vw);
-	}
-}
-@media (max-width: 970px) {
+
+@media (max-width: 768px) {
 	.avatar {
 		display: none;
 	}
+	
 }
-@media (max-width: 910px) {
-	.im-expert .cards {
-		display: grid !important;
-	    grid-template-columns: 50vw;
-	    position: relative;
-	    margin-bottom: 15px;
-	}
-	.expert-image {
-		display: none;
-	}
-	.card {
-		width: 50vw;
-	}
-	.card .i-do {
-		font-size: 1.5vw;
-	}
-}
-@media (max-width: 796px) {
-	.about-border, .mission-border {
-		display: none;
-	}
-	.about-sec {
-		margin-top: 100px !important;
-	}
-}
-@media (max-width: 870px) {
-	#pricing .row {
-		display: grid;
-	    grid-template-columns: 30vw;
-	}
-}
-@media (max-width: 786px) {
-	.work-image, .think {
-		display: none;
-	}
-	.works div .row {
-		margin-left: 12vw;
-		display: grid;
-		grid-template-columns: 50vw;
-		justify-content: space-between;
-	}
-	.works div .row .col-md-4 {
-		width: 50vw;
-	}
-	.work-text {
-		background-color: #f8f8f8;
-	}
-	span {
-		font-size: 30px;
-	}
-	p {
-		font-size: 20px;
-	}
-	.offer-card {
-		width: 300px;
-	}
-	.offer-price {
-		font-size: 25px;
-	}
-	.specs, .includes {
-		font-size: 12px;
-		line-height: 30px;
-	}
-	.card .desc {
-		margin-top: 17px;
-		font-size: 20px;
-	}
-	.i-do {
-		font-size: 30px !important;
-	}
-	.i-do::after {
-		display: none;
-	}
-	.exp-title span {
-		font-size: 50px !important;
-	}
-	.statement, .mission-title {
-		font-size: 18px !important;
-	}
-	.mission-statement {
-		margin-top: 10px !important;
-	}
-	.col-sm-5 {
-		width: 5in;
-	}
-	.about-title {
-		font-size: 25px !important;
-	}
-}*/
