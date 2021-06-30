@@ -122,7 +122,7 @@ p {
 	grid-gap: 2vw;
 }
 .card {
-	background-color: white;
+	display: flex;
 }
 .card span {
 	color: #3cb9d0;
@@ -488,5 +488,8 @@ p {
 	.avatar {
 		display: none;
 	}
-	
+	.cards {
+		display: grid;
+		grid-template: column;
+	}
 }
