@@ -33,7 +33,7 @@ a, h2 {
 	font-size: 2rem;
 }
 p {
-	font-size: 1.5rem !important;
+	font-size: 1.5rem;
 }
 .specs {
 	font-size: 1.5rem;
@@ -478,8 +478,13 @@ p {
 }
 
 /*additional changes*/
-
-
+.about-title {
+	font-size: 3rem;
+}
+.icons {
+	width: 1.5rem;
+	height: auto;
+}
 
 
 /*The Responsive Part*/
@@ -566,7 +571,11 @@ p {
 	.col-sm-5 {
 		width: 5in;
 	}
+	.about-border {
+		display: none;
+	}
 	.about-title {
+		font-size: 1.5rem;
 	}
 
 }
@@ -578,5 +587,17 @@ p {
 		width: 100vw;
 		justify-content: center;
 		text-align: center;
+	}
+	.about-sec {
+		margin-top: 12rem;
+	}
+	.design-works .description {
+		margin-top: 7rem;
+	}
+	.statement {
+		font-size: 1rem;
+	}
+	.icons {
+		padding-top: 100px;
 	}
 }
