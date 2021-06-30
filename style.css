@@ -14,36 +14,34 @@
 	--line: 40px;
 	--font-sz: calc((var(--line))*0.5);
 	--font-sz-name: calc((var(--font-sz))*2);
-	--image-hover: ;
 }
 
 /*head part with base image and base color + welcome text*/
-
+html {
+	font-size: 67%;
+}
+.base-color {
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background-image: linear-gradient(180deg, #303ad8 0%, #2b73dd 50%, #3dbdcf 100%);
+}
 .base-img {
 	width: 100%;
 	height: auto;
 }
-.header {
-	width: 100%;
-	/*height: 100vh;*/
-	background-image: linear-gradient(180deg, #0900b2 0%, #0060ff 50%, #20c7d7 100%);
-	opacity: 80%;
-	color: #fff;
-}
 .name-wlcm {
-	border-style: dashed;
+	border:1px dashed white;
 	border-width: 1px;
-	color: #fff;
 	line-height: var(--line);
 }
-.name-wlcm .name {
-	font-weight: 600;
-	font-size: var(--font-sz-name);
-	color: #fff;
+.name-wlcm h1 {
+	color: white;
+	font-size: 4rem;
 }
-.name-wlcm .wlcm {
-	font-size: var(--font-sz);
-	color: #fff;
+.name-wlcm p {
+	color: white;
+	font-size: 2rem;
 }
 
 /*navbar part in the head section*/
@@ -55,7 +53,7 @@
 }
 
 .navbar a {
-	font-size: auto;
+	font-size: 1.5rem;
 	color: #737373;
 }
 .navbar a:hover {
@@ -75,7 +73,7 @@
 .about-title {
 	position: absolute;
 	color: #38a9c5;
-	font-size: 2.3vw;
+	font-size: 3rem;
 	background-color: #fff;
 	transform: translateY(-13.5vh);
 	right: 43%;
@@ -83,6 +81,7 @@
 .about {
 	background-color: #fff;
 	transform: translateY(-4vh);
+	font-size: 1.5rem;
 }
 .about-border {
 	height: 8vh;
