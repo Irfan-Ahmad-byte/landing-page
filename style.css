@@ -18,7 +18,21 @@
 }
 
 /*head part with base image and base color + welcome text*/
-
+html {
+	font-size: 67%;
+}
+h1 {
+	font-size: 4rem;
+}
+span {
+	font-size: 3rem;
+}
+a {
+	font-size: 2rem;
+}
+p {
+	font-size: 2rem;
+}
 .base-img {
 	width: 100%;
 	height: auto;
@@ -515,9 +529,9 @@
 	.card {
 		width: 50vw;
 	}
-	.card .i-do {
+	/*.card .i-do {
 		font-size: 1.5vw;
-	}
+	}*/
 }
 @media (max-width: 796px) {
 	.about-border, .mission-border {
@@ -549,30 +563,30 @@
 	.work-text {
 		background-color: #f8f8f8;
 	}
-	span {
+/*	span {
 		font-size: 30px;
 	}
 	p {
 		font-size: 20px;
-	}
+	}*/
 	.offer-card {
 		width: 300px;
 	}
-	.offer-price {
+/*	.offer-price {
 		font-size: 25px;
-	}
-	.specs, .includes {
+	}*/
+/*	.specs, .includes {
 		font-size: 20px;
 		line-height: 30px;
 	}
 	.card .desc {
 		margin-top: 17px;
 		font-size: 20px;
-	}
-	.i-do {
+	}*/
+/*	.i-do {
 		font-size: 30px !important;
-	}
-	.i-do::after {
+	}*/
+/*	.i-do::after {
 		display: none;
 	}
 	.exp-title span {
@@ -580,7 +594,7 @@
 	}
 	.statement, .mission-title {
 		font-size: 18px !important;
-	}
+	}*/
 	.mission-statement {
 		margin-top: 10px !important;
 	}
