@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   color: #737373;
+  font-size: 67%;
 }
 :root {
 	--height: 100%;
@@ -18,20 +19,24 @@
 }
 
 /*head part with base image and base color + welcome text*/
-html {
-	font-size: 67%;
-}
 h1 {
-	font-size: 4rem;
+	font-size: 4rem !important;
+}
+li {
+	font-size: 1.5rem !important;
+	line-height: 1.8rem !important;
 }
 span {
-	font-size: 3rem;
+	font-size: 2rem;
 }
-a {
+a, h2 {
 	font-size: 2rem;
 }
 p {
-	font-size: 2rem;
+	font-size: 1.5rem !important;
+}
+.specs {
+	font-size: 1.5rem;
 }
 .base-img {
 	width: 100%;
@@ -52,11 +57,9 @@ p {
 }
 .name-wlcm .name {
 	font-weight: 600;
-	font-size: var(--font-sz-name);
 	color: #fff;
 }
 .name-wlcm .wlcm {
-	font-size: var(--font-sz);
 	color: #fff;
 }
 
@@ -69,7 +72,7 @@ p {
 }
 
 .navbar a {
-	font-size: auto;
+	font-size: 1.5rem;
 	color: #737373;
 }
 .navbar a:hover {
@@ -85,11 +88,12 @@ p {
 
 
 /*About Me section*/
-
+.about-sec {
+	margin-top: 8rem;
+}
 .about-title {
 	position: absolute;
 	color: #38a9c5;
-	font-size: 2.3vw;
 	background-color: #fff;
 	transform: translateY(-13.5vh);
 	right: 43%;
@@ -119,7 +123,6 @@ p {
 }
 .exp-title span {
     color: #fff;
-    font-size: 2vw;
 }
 .expert-image {
 	width: 100%;
@@ -138,7 +141,6 @@ p {
 .card span {
 	color: #3cb9d0;
 	font-weight: 800;
-	font-size: 1.1vw;
 }
 .card img {
 	width: 20%;
@@ -146,7 +148,6 @@ p {
 }
 .i-do {
 	position: relative;
-	font-size: 1.5vw;
 }
 .i-do {
 	text-decoration: none;
@@ -165,7 +166,6 @@ p {
 	width: 25%;
 }
 .desc {
-	font-size: 12px;
 	line-height: 22px;
 	font-weight: normal !important;
 	color: #868686 !important; 
@@ -186,7 +186,6 @@ p {
 }
 .mission-statement .statement {
 	color: white;
-	font-size: 1.75vw;
 }
 .mission-border {
 	width: auto;
@@ -222,7 +221,6 @@ p {
 }
 .mission-title {
 	color: white;
-	font-size: 1.75vw;
 }
 
 
@@ -231,9 +229,7 @@ p {
 .design-title {
 	transform: translateX(8vw);
 }
-.design-title .about-title {
-	font-size: 2vw;
-}
+
 .works {
 	grid-gap: 0px;
 }
@@ -268,7 +264,6 @@ p {
 	color: white;
 	top: 32%;
 	left: 34%;
-	font-size: 2vw;
 	text-align: center;
 }
 .think::after {
@@ -288,9 +283,7 @@ p {
 	left: 48.45%;
 }
 
-.work-text {
-	font-size: 1.05vw;
-}
+
 .jenn {
 	background-color: #f8f8f8;
 }
@@ -320,6 +313,7 @@ p {
 	border-color: white;
 	background: rgba(60,185,208,0.80);
 	transform: translate(-9.8vw, -9.8vw);
+	z-index: 10000;
 }
 .work-title{
 	position: relative;
@@ -373,17 +367,13 @@ p {
 .offer-price {
 	position: relative;
 	color: #3cb9d0;
-	font-size: 2.5vw;
 }
 .includes {
 	color: #3cb9d0;
-	font-size: 1vw;
-	line-height: 2.5vw;
 	margin-left: 1.5vw;
 }
 .specs {
 	line-height: 2.5vw;
-	font-size: 1vw;
 	color: #3cb9d0;
 	font-weight: bold;
 }
@@ -403,7 +393,6 @@ p {
 	left: 10vw;
 	color: #3cb9d0;
 	font-weight: 700;
-	font-size: 1.5vw;
 }
 .purchase a::after {
 	content: "";
@@ -428,9 +417,7 @@ p {
 .why-statement{
 	font-weight: normal;
 }
-.mission-statement .hire-title, .why-list {
-	font-size: 1.5vw;
-}
+
 .re-1 {
 	position: absolute;
 	width: 22vw;
@@ -491,15 +478,6 @@ p {
 }
 
 /*additional changes*/
-.offer-price {
-	font-size: 2vw;
-}
-.specs, .includes {
-	font-size: 1.5vw;
-}
-.offer-card {
-	width: 25vw;
-}
 
 
 
@@ -516,7 +494,7 @@ p {
 		display: none;
 	}
 }
-@media (max-width: 910px) {
+@media (max-width: 1000px) {
 	.im-expert .cards {
 		display: grid !important;
 	    grid-template-columns: 50vw;
@@ -533,7 +511,7 @@ p {
 		font-size: 1.5vw;
 	}*/
 }
-@media (max-width: 796px) {
+/*@media (max-width: 796px) {
 	.about-border, .mission-border {
 		display: none;
 	}
@@ -546,55 +524,42 @@ p {
 		display: grid;
 	    grid-template-columns: 30vw;
 	}
-}
-@media (max-width: 786px) {
+}*/
+@media (max-width: 768px) {
+	.about-sec {
+		margin: 3rem 3rem;
+	}
+	.mission-statement {
+		width: 70vw;
+	}
+	.mission-border {
+		display: none;
+	}
+	.name-wlcm {
+		border: none;
+	}
+	.about-sec {
+		display: grid;
+		grid-template-columns: 80vw;
+	}
 	.work-image, .think {
 		display: none;
 	}
 	.works div .row {
 		margin-left: 12vw;
 		display: grid;
-		grid-template-columns: 50vw;
+		grid-template-columns: 80vw;
 		justify-content: space-between;
 	}
 	.works div .row .col-md-4 {
-		width: 50vw;
+		width: 100%;
 	}
 	.work-text {
 		background-color: #f8f8f8;
 	}
-/*	span {
-		font-size: 30px;
-	}
-	p {
-		font-size: 20px;
-	}*/
 	.offer-card {
-		width: 300px;
+		width: 100%;
 	}
-/*	.offer-price {
-		font-size: 25px;
-	}*/
-/*	.specs, .includes {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	.card .desc {
-		margin-top: 17px;
-		font-size: 20px;
-	}*/
-/*	.i-do {
-		font-size: 30px !important;
-	}*/
-/*	.i-do::after {
-		display: none;
-	}
-	.exp-title span {
-		font-size: 50px !important;
-	}
-	.statement, .mission-title {
-		font-size: 18px !important;
-	}*/
 	.mission-statement {
 		margin-top: 10px !important;
 	}
@@ -602,6 +567,16 @@ p {
 		width: 5in;
 	}
 	.about-title {
-		font-size: 25px !important;
+	}
+
+}
+@media (max-width: 500px) {
+	.works {
+		width: 100%;
+	}
+	.col-md-4 {
+		width: 100vw;
+		justify-content: center;
+		text-align: center;
 	}
 }
