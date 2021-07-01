@@ -426,7 +426,7 @@ h5 {
 .why-statement{
 	font-weight: normal;
 }
-.why-list {
+.why-list li {
 	list-style: none;
 }
 .why-list li {
