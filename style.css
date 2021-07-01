@@ -5,7 +5,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   font-family: 'Raleway', sans-serif;
   color: #737373;
   font-size: 67%;
@@ -99,6 +99,7 @@ p {
 	right: 43%;
 }
 .about {
+	text-align: flex-start;
 	background-color: #fff;
 	transform: translateY(-4vh);
 }
@@ -231,6 +232,7 @@ p {
 }
 
 .works {
+	margin-top: 14rem;
 	grid-gap: 0px;
 }
 .think {
@@ -466,10 +468,11 @@ p {
 }
 /*footer*/
 .footer {
-	margin-top: 8vw;
+	margin-top: 12.345rem;
 	background-color: black;
 }
 .foot-txt {
+	font-size: 1.5rem;
 	color: white;
 }
 .up {
@@ -485,7 +488,9 @@ p {
 	width: 1.5rem;
 	height: auto;
 }
-
+.desc {
+	font-size: 1.2rem;
+}
 
 /*The Responsive Part*/
 
@@ -531,8 +536,14 @@ p {
 	}
 }*/
 @media (max-width: 768px) {
+	.footer {
+		margin-top: 0rem;
+	}
+	.description {
+		margin-top: 7rem;
+	}
 	.about-sec {
-		margin: 3rem 3rem;
+		margin: 7rem 3rem;
 	}
 	.mission-statement {
 		width: 70vw;
@@ -577,7 +588,9 @@ p {
 	.about-title {
 		font-size: 1.5rem;
 	}
-
+	.works {
+		margin-top: 14rem;
+	}
 }
 @media (max-width: 500px) {
 	.works {
@@ -591,13 +604,7 @@ p {
 	.about-sec {
 		margin-top: 12rem;
 	}
-	.design-works .description {
-		margin-top: 7rem;
-	}
 	.statement {
 		font-size: 1rem;
-	}
-	.icons {
-		padding-top: 100px;
 	}
 }
