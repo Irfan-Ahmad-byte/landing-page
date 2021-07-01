@@ -17,9 +17,6 @@
 	--font-sz-name: calc((var(--font-sz))*2);
 	--image-hover: ;
 }
-section {
-	width: 100vw;
-}
 
 /*head part with base image and base color + welcome text*/
 h1 {
