@@ -17,6 +17,9 @@
 	--font-sz-name: calc((var(--font-sz))*2);
 	--image-hover: ;
 }
+section {
+	width: 100vw;
+}
 
 /*head part with base image and base color + welcome text*/
 h1 {
@@ -619,9 +622,13 @@ h5 {
 }
 /*@media (max-width: 500px) {
 }
-*/@media (max-width: 500px) {
+*/@media (max-width: 550px) {
 	.works {
-		width: 100%;
+		width: 70%;
+	}
+	.mission {
+		margin-top: 5rem;
+		margin-bottom: 7rem;
 	}
 	.col-md-4 {
 		width: 100vw;
@@ -636,5 +643,16 @@ h5 {
 	}
 	.mission-title {
 		margin-top: 0;
+	}
+	.mission-image, .mission-base {
+		display: none;
+	}
+	.mission-statement {
+		background-color: #3cb9d0;
+		margin: 5rem 5rem;
+		position: absolute;
+	}
+	.left-triangle, .right-triangle {
+		display: none;
 	}
 }
