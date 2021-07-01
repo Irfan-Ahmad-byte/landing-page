@@ -35,6 +35,9 @@ a, h2 {
 p {
 	font-size: 1.5rem;
 }
+h5 {
+	font-size: 1rem;
+}
 .specs {
 	font-size: 1.5rem;
 }
@@ -588,5 +591,8 @@ p {
 	}
 	.statement {
 		font-size: 1rem;
+	}
+	.contact-btn {
+		display: none;
 	}
 }
