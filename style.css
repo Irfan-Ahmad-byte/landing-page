@@ -453,7 +453,6 @@ p {
 	transform: translateY(-3vw);
 }
 .round {
-	/*position: absolute;*/
 	border-radius: 50%;
 	fill: white;
 	width: 3vw;
@@ -494,7 +493,7 @@ p {
 
 /*The Responsive Part*/
 
-@media (max-width: 1330px) {
+@media (min-width: 1330px) {
 	.avatar {
 		transform: translateX(3vw);
 	}
@@ -517,24 +516,7 @@ p {
 	.card {
 		width: 50vw;
 	}
-	/*.card .i-do {
-		font-size: 1.5vw;
-	}*/
 }
-/*@media (max-width: 796px) {
-	.about-border, .mission-border {
-		display: none;
-	}
-	.about-sec {
-		margin-top: 100px !important;
-	}
-}
-@media (max-width: 870px) {
-	#pricing .row {
-		display: grid;
-	    grid-template-columns: 30vw;
-	}
-}*/
 @media (max-width: 768px) {
 	.footer {
 		margin-top: 0rem;
