@@ -501,6 +501,11 @@ h5 {
 		transform: translateX(3vw);
 	}
 }
+@media (max-width: 1275px) {
+	.footer {
+		margin-top: 5rem;
+	}
+}
 @media (max-width: 970px) {
 	.avatar {
 		display: none;
@@ -519,8 +524,12 @@ h5 {
 	.card {
 		width: 50vw;
 	}
+	.contact-btn {
+		display: none;
+	}	
 }
 @media (max-width: 768px) {
+	
 	.footer {
 		margin-top: 0rem;
 	}
@@ -592,7 +601,5 @@ h5 {
 	.statement {
 		font-size: 1rem;
 	}
-	.contact-btn {
-		display: none;
-	}
+
 }
