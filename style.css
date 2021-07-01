@@ -493,6 +493,10 @@ h5 {
 .desc {
 	font-size: 1.2rem;
 }
+.hire-title {
+	font-size: 1.8rem !important;
+	transform: translateY(-2rem);
+}
 
 /*The Responsive Part*/
 
@@ -514,19 +518,26 @@ h5 {
 @media (max-width: 1000px) {
 	.im-expert .cards {
 		display: grid !important;
-	    grid-template-columns: 50vw;
+	    grid-template-columns: 100vw;
 	    position: relative;
 	    margin-bottom: 15px;
+	    column-width: 70%;
 	}
 	.expert-image {
 		display: none;
 	}
 	.card {
-		width: 50vw;
+		width: 100%;
+		padding: 0rem 20rem !important;		
 	}
 	.contact-btn {
 		display: none;
 	}	
+	.offers .row .col-md-3 {
+		width: 100%;
+		padding: 2rem 10rem !important;
+		line-height: 8rem !important;		
+	}
 }
 @media (max-width: 768px) {
 	
@@ -555,15 +566,16 @@ h5 {
 	.work-image, .think {
 		display: none;
 	}
-	.works div .row {
-		margin-left: 12vw;
+	.works .row {
+		/*margin-left: 100%;*/
 		display: grid;
-		grid-template-columns: 80vw;
-		justify-content: space-between;
+		grid-template-columns: 100vw;
+		column-width: 70%;
 	}
-	.works div .row .col-md-4 {
+	.works .row .col-md-4 {
 		width: 100%;
-	}
+		padding: 0rem 8rem !important;
+	}	
 	.work-text {
 		background-color: #f8f8f8;
 	}
@@ -586,7 +598,9 @@ h5 {
 		margin-top: 14rem;
 	}
 }
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
+}
+*/@media (max-width: 500px) {
 	.works {
 		width: 100%;
 	}
