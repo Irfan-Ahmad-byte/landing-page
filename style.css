@@ -38,6 +38,9 @@ p {
 h5 {
 	font-size: 1.5rem;
 }
+.offer-price {
+	font-size: 3rem;
+}
 .specs {
 	font-size: 1.5rem;
 }
@@ -175,7 +178,6 @@ h5 {
 	color: #868686 !important; 
 }
 
-
 /*our MIssion Section*/
 .mission-base {
 	width: 100%;
@@ -190,6 +192,7 @@ h5 {
 }
 .mission-statement .statement {
 	color: white;
+	font-size: 1.5rem;
 }
 .mission-border {
 	width: auto;
@@ -225,6 +228,7 @@ h5 {
 }
 .mission-title {
 	color: white;
+	font-size: 2rem;
 }
 
 
@@ -422,6 +426,13 @@ h5 {
 .why-statement{
 	font-weight: normal;
 }
+.why-list {
+	list-style: none;
+}
+.why-list li {
+	color: white;
+	font-size: 1.3rem !important;
+}
 
 .re-1 {
 	position: absolute;
@@ -470,7 +481,7 @@ h5 {
 }
 /*footer*/
 .footer {
-	margin-top: 12.345rem;
+	margin-top: 13rem;
 	background-color: black;
 }
 .foot-txt {
