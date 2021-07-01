@@ -528,7 +528,7 @@ h5 {
 	}
 	.card {
 		width: 100%;
-		padding: 0rem 20rem !important;		
+		/*padding: 0rem 20rem !important;		*/
 	}
 	.contact-btn {
 		display: none;
@@ -576,7 +576,7 @@ h5 {
 	}
 	.works .row .col-md-4 {
 		width: 100%;
-		padding: 0rem 8rem !important;
+		padding: 0rem 4rem !important;
 	}	
 	.work-text {
 		background-color: #f8f8f8;
