@@ -613,6 +613,9 @@ h5 {
 	.hire-title {
 		margin-top: 2rem !important;
 	}
+	.why-me {
+		display: none !important;
+	}
 }
 /*@media (max-width: 500px) {
 }
