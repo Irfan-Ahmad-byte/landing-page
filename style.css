@@ -540,7 +540,9 @@ h5 {
 	}
 }
 @media (max-width: 768px) {
-	
+	.name {
+		font-size: 2.5rem !important;
+	}	
 	.footer {
 		margin-top: 0rem;
 	}
