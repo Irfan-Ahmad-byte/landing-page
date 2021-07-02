@@ -580,10 +580,9 @@ h5 {
 		display: none;
 	}
 	.works .row {
-		/*margin-left: 100%;*/
 		display: grid;
 		grid-template-columns: 100vw;
-		column-width: 70%;
+		column-width: 100%;
 	}
 	.works .row .col-md-4 {
 		width: 100%;
@@ -624,7 +623,7 @@ h5 {
 		width: 70%;
 	}
 	.mission {
-		margin-top: 5rem;
+		margin-top: 7rem;
 		margin-bottom: 7rem;
 	}
 	.col-md-4 {
